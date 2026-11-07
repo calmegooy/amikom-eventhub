@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#4f46e5"/>
+  
+  <!-- Calendar base shape -->
+  <rect x="96" y="140" width="320" height="260" rx="24" fill="white" opacity="0.15"/>
+  <rect x="96" y="140" width="320" height="260" rx="24" fill="none" stroke="white" stroke-width="8"/>
+  
+  <!-- Calendar header bar -->
+  <rect x="96" y="140" width="320" height="80" rx="24" fill="white" opacity="0.25"/>
+  <rect x="96" y="196" width="320" height="24" fill="white" opacity="0.25"/>
+  
+  <!-- Calendar rings -->
+  <rect x="176" y="108" width="24" height="64" rx="12" fill="white"/>
+  <rect x="312" y="108" width="24" height="64" rx="12" fill="white"/>
+  
+  <!-- Ticket cutout mark on right side (perforated) -->
+  <circle cx="96" cy="330" r="20" fill="#4f46e5"/>
+  <circle cx="416" cy="330" r="20" fill="#4f46e5"/>
+  <line x1="116" y1="330" x2="396" y2="330" stroke="white" stroke-width="4" stroke-dasharray="12,8"/>
+  
+  <!-- Star/check icon in center -->
+  <circle cx="256" cy="282" r="48" fill="white" opacity="0.9"/>
+  <path d="M240 282 L250 292 L272 270" stroke="#4f46e5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- "AH" text -->
+  <text x="256" y="76" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="white" letter-spacing="2">AH</text>
+</svg>
